@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300&family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300&family=Dancing+Script&display=swap');
+:root {
+    --main-bg-color: blue;
+  }
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: var(--main-bg-color);
+    font-family: 'Catamaran', sans-serif;
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 85px;
+    padding: 0 25px;
+}
+nav ul{
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 23px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    font-weight: bolder;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    width: 30vw;
+    height: 20px;
+    border-radius: 1px;
+    margin: 0 7px 0 96px;
+    padding: 0 12px;
+}
+.search img{
+    display: flex;
+    align-items: center;
+    width: 20px;
+}
+.search img:hover{
+    cursor: pointer;
+}
+.container{
+    min-height: calc(100vh - 50px - 10vh);
+}
+.slider{
+    margin:10px auto;
+    width: 60vw;
+    overflow: hidden;
+}
+.cards{
+    display: flex;
+    overflow: hidden;
+}
+.card{
+    max-width: 80vw;
+    margin: 37px auto;
+}
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 17px;
+}
+.card h2{
+    font-family: 'Catamaran', sans-serif;
+}
+footer{
+    height: 10vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'Catamaran', sans-serif;
+}
